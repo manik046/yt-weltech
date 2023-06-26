@@ -3,10 +3,3 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/weltxjjy/public_html/
     - /bin/cp * $DEPLOYPATH
-    - /bin/cp -R $APP_BASE/* $DEPLOYPATH
-    - cd $DEPLOYPATH
-    - npm install --production
-    - npm run build
-    - /bin/cp -R build/* .
-    - /bin/cp -R build/.[^.]* .
-    - /bin/rm -rf build
