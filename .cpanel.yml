@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/weltxjjy/public_html/test.weltech.com.bd
+    - export DEPLOYPATH=/home/weltxjjy/public_html/
     - /bin/cp * $DEPLOYPATH
