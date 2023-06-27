@@ -3,3 +3,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/weltxjjy/public_html/yt-weltech
     - /bin/cp * $DEPLOYPATH
+     - /bin/cp -R * $DEPLOYPATH
