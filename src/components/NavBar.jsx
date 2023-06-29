@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import {FaBars, FaTimes} from "react-icons/fa"
-import { Link } from 'react-scroll'
+import { Link } from 'react-router-dom'
+
 
 const NavBar = () => {
 
@@ -32,7 +33,7 @@ const NavBar = () => {
   return (
       <div className='flex justify-between items-center bg-cyan-900 text-white px-4 h-20 w-full'>
         <div>
-          <h1 className='text-5xl font-ArialBlack ml-2'>WELTECH Eng</h1>
+          <h1 className='text-5xl font-ArialBlack ml-2'>WELTECH</h1>
         </div>
         
         <ul className='hidden md:flex'>

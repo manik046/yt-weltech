@@ -4,3 +4,8 @@ deployment:
     - export DEPLOYPATH=/home/weltxjjy/public_html/yt-weltech
     - /bin/cp * $DEPLOYPATH
      - /bin/cp -R * $DEPLOYPATH
+
+  run:
+    npm install
+    npm run build
+    npm run test
